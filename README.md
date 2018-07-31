@@ -25,3 +25,17 @@ cd ..
   * **2014 Test images [41K/6GB]** (extract the test2014 folder and place at location cocoapi/images/test2014/)
 
 4. The project is structured as a series of Jupyter notebooks that are designed to be completed in sequential order (`0_Dataset.ipynb, 1_Preliminaries.ipynb, 2_Training.ipynb, 3_Inference.ipynb`).
+
+# Result 
+## Good result
+
+![good result](./images/good_result.png)
+
+## NG result
+
+In the first image,the model predicts the cat as dog.
+
+In the second image,the mode predicts the ships as surfboards.
+
+![ng result](./images/ng_result.png)
+
